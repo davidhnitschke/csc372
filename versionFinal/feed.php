@@ -100,7 +100,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		<div class="column">
 	  		<h2> <?= $phase1->title ?> </h2>
 	  		<h5> <?= $phase1->period ?> </h5>
-			<!-- check stock -->
+			
 	  		<h5><span class="emphasized"> <?= $phase1->details ?> </span>
 			<h5> Time remaining: <?= $phase1->format_time(); ?> </h5>
 	  	</div>
@@ -108,7 +108,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	  	<div class="column">
 	  		<h2> <?= $phase2->title ?> </h2>
 	  		<h5> <?= $phase2->period ?> </h5>
-			<!-- check stock -->
+			
 	  		<h5><span class="emphasized"> <?= $phase2->details ?> </span>
 			<h5> Time remaining: <?= $phase2->format_time(); ?> </h5>
 	  	</div>
@@ -116,7 +116,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	  	<div class="column">
 	  		<h2> <?= $phase3->title ?> </h2>
 	  		<h5> <?= $phase3->period ?> </h5>
-			<!-- check stock -->
+			
 	  		<h5><span class="emphasized"> <?= $phase3->details ?> </span>
 			<h5> Time remaining: <?= $phase3->format_time(); ?> </h5>
 	  	</div>
